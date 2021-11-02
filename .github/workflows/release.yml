@@ -12,7 +12,7 @@ on:
         description: 'SHA of tar file created by oclif'
       pre-release:
         description: 'If it is a prerelease send true as input'
-        default: 'false'
+        default: 'true'
 
 jobs:
   update:
